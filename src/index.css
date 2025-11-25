@@ -11,6 +11,12 @@ p{
     font-size: 1.2rem;
 }
 
+@media (max-width:640px) {
+p {
+    font-size: 1.2rem;
+}
+}
+
 li{
     font-size: 1.2rem;
 }
@@ -19,6 +25,12 @@ h2{
     color: #6D94C5;
     font-size: 2rem;
         font-weight: 500;
+}
+
+@media (max-width:640px) {
+h2 {
+    font-size: 1.6rem;
+}
 }
 
 h3{
@@ -33,6 +45,12 @@ ul li p{
     margin-bottom: 1rem;
 }
 
+@media (max-width:640px) {
+li {
+    font-size: 1.2rem;
+}
+}
+
 .contenedor{
     margin: 0 15rem;
 }
@@ -41,16 +59,15 @@ ul li p{
 
 @media (max-width:1400px) {
    .contenedor{
-    margin: 0 8rem;
-} 
-}
-
-@media (max-width:1400px) {
-   .contenedor{
     margin: 0 4rem;
 } 
 }
 
+@media (max-width:640px) {
+   .contenedor{
+    margin: 0 2rem;
+} 
+}
 /* main{
   margin-bottom: 15rem;
 } */
@@ -79,6 +96,12 @@ ul li p{
     padding-bottom: 2rem;
   }
 
+}
+
+@media (max-width:640px) {
+ .topContent{
+    height: 15rem;
+  }
 }
 
 .topContent h1{
@@ -128,6 +151,12 @@ ul li p{
     text-align: center;
 }
 
+@media (max-width:640px) {
+ .proyecto{
+    width: 34%;
+}
+}
+
 /* @media (max-width:1200px) {
 .proyecto{
     width: 10rem;
@@ -151,6 +180,17 @@ ul li p{
     width: 7rem;
 }
 
+@media (max-width:640px) {
+.proyecto img {
+    width: 55%;
+}
+}
+
+@media (max-width:640px) {
+.proyecto p {
+    font-size: 1rem;
+}
+}
 .circulo{
     border-radius: 50%;
 }
@@ -161,6 +201,12 @@ ul li p{
     font-size: 2rem;
     font-weight: 500;
     text-align: center;
+}
+
+@media (max-width:640px) {
+.callAction{
+    font-size: 1.6rem;
+}
 }
 
 /*Footer*/
