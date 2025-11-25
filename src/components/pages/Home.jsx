@@ -31,7 +31,7 @@ function Home() {
 
         <div class="proyectos">
           <div class="proyecto">
-            <a href="https://tienda.bayer.com/">
+            <a href="https://tienda.bayer.com/" target="_blank" rel="noopener noreferrer">
               <img src="./img/bayer.jpg" alt="logo bayer tienda" />
               <p>Tienda Bayer by SFE</p>
             </a>
@@ -39,19 +39,20 @@ function Home() {
           <div class="proyecto">
             <a
               href="https://play.google.com/store/apps/details?id=com.tiendabayer&hl=es_UY"
+              target="_blank" rel="noopener noreferrer"
             >
               <img src="./img/bayertienda.png" alt="logo bayer app" />
               <p>App Bayer Tienda</p>
             </a>
           </div>
           <div class="proyecto">
-            <a href="https://trioximed.com.mx/Home">
+            <a href="https://trioximed.com.mx/Home" target="_blank" rel="noopener noreferrer">
               <img src="./img/trioximed.jpg" alt="logo Trioximed" class="circulo"/>
               <p>Tienda Trioximed</p>
             </a>
           </div>
           <div class="proyecto">
-            <a href="https://omanuclinica.com.mx/">
+            <a href="https://omanuclinica.com.mx/" target="_blank" rel="noopener noreferrer">
               <img src="./img/omanu.jpg" alt="logo Omanu"/>
               <p>Tienda Omanu</p>
             </a>
@@ -59,6 +60,7 @@ function Home() {
           <div class="proyecto">
             <a
               href="https://tienda.sfe.com.mx/?srsltid=AfmBOopfXxwcRG8osRyfJOCxw8UinLK_Z51d9FIP2RFMjomaNEAxQcuI"
+              target="_blank" rel="noopener noreferrer"
             >
               <img src="./img/sfe.png" alt="logo SFE" />
               <p>Tienda SFE</p>
@@ -67,6 +69,7 @@ function Home() {
             <div class="proyecto">
             <a
               href="https://oxitopicvet.com/"
+              target="_blank" rel="noopener noreferrer"
             >
               <img src="./img/oxitopicvet.png" alt="logo SFE" />
               <p>OxitopicVet</p>
@@ -75,6 +78,7 @@ function Home() {
             <div class="proyecto">
             <a
               href="https://ozycaps.com.mx/"
+              target="_blank" rel="noopener noreferrer"
             >
               <img src="./img/ozycaps.jpg" alt="logo SFE" class="circulo"/>
               <p>Ozycaps</p>
@@ -86,7 +90,7 @@ function Home() {
           <div>
             <p className="callAction">¿Tienes un proyecto en mente? <br></br>Hagamozlo realidad</p>
             <div>
-                <a href="https://wa.me/525631289745" target="_blank"><img src={imgWhat} className='whats'/></a>
+                <a href="https://wa.me/525631289745" target="_blank" rel="noopener noreferrer"><img src={imgWhat} className='whats'/></a>
             </div>
           </div>
         </div>

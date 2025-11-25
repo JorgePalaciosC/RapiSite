@@ -87,7 +87,7 @@ function About(){
 
         <div className="proyectos">
           <div className="proyecto">
-            <a href="https://tienda.bayer.com/">
+            <a href="https://tienda.bayer.com/" target="_blank" rel="noopener noreferrer">
               <img src="./img/bayer.jpg" alt="logo bayer tienda" />
               <p>Tienda Bayer by SFE</p>
             </a>
@@ -95,19 +95,20 @@ function About(){
           <div className="proyecto">
             <a
               href="https://play.google.com/store/apps/details?id=com.tiendabayer&hl=es_UY"
+              target="_blank" rel="noopener noreferrer"
             >
               <img src="./img/bayertienda.png" alt="logo bayer app" />
               <p>App Bayer Tienda</p>
             </a>
           </div>
           <div className="proyecto">
-            <a href="https://trioximed.com.mx/Home">
+            <a href="https://trioximed.com.mx/Home" target="_blank" rel="noopener noreferrer">
               <img src="./img/trioximed.jpg" alt="logo Trioximed" className="circulo"/>
               <p>Tienda Trioximed</p>
             </a>
           </div>
           <div className="proyecto">
-            <a href="https://omanuclinica.com.mx/">
+            <a href="https://omanuclinica.com.mx/" target="_blank" rel="noopener noreferrer">
               <img src="./img/omanu.jpg" alt="logo Omanu"/>
               <p>Tienda Omanu</p>
             </a>
@@ -115,6 +116,7 @@ function About(){
           <div className="proyecto">
             <a
               href="https://tienda.sfe.com.mx/?srsltid=AfmBOopfXxwcRG8osRyfJOCxw8UinLK_Z51d9FIP2RFMjomaNEAxQcuI"
+              target="_blank" rel="noopener noreferrer"
             >
               <img src="./img/sfe.png" alt="logo SFE" />
               <p>Tienda SFE</p>
@@ -123,6 +125,7 @@ function About(){
             <div className="proyecto">
             <a
               href="https://oxitopicvet.com/"
+              target="_blank" rel="noopener noreferrer"
             >
               <img src="./img/oxitopicvet.png" alt="logo SFE" />
               <p>OxitopicVet</p>
@@ -131,6 +134,7 @@ function About(){
             <div className="proyecto">
             <a
               href="https://ozycaps.com.mx/"
+              target="_blank" rel="noopener noreferrer"
             >
               <img src="./img/ozycaps.jpg" alt="logo SFE" className="circulo"/>
               <p>Ozycaps</p>
